@@ -11,8 +11,22 @@ VODKA_DIR = Path.home() / ".vodka"
 VERSIONS_FILE = VODKA_DIR / "versions.json"
 DEFAULT_LINK = VODKA_DIR / "default"
 
+def download_versions():
+    versions_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/main/versions.json"
+    try:
+        urllib.request.urlretrieve(versions_url, VERSIONS_FILE)
+        print("Successfully downloaded versions list")
+    except Exception as e:
+        print(f"Error downloading versions: {e}")
+        return False
+    return True
+
 def load_versions():
-    with open("versions.json") as f:
+    if not VERSIONS_FILE.exists():
+        if not download_versions():
+            return []
+
+    with open(VERSIONS_FILE) as f:
         return json.load(f)
 
 def is_installed(version_name):
@@ -88,6 +102,7 @@ def main():
         print("  install <version>   - Install a specific version")
         print("  default <version>   - Set default version")
         print("  list               - List all available versions")
+        print("  refresh            - Refresh versions list")
         return
 
     command = sys.argv[1].lower()
@@ -98,6 +113,8 @@ def main():
         set_default(sys.argv[2])
     elif command == "list":
         list_versions()
+    elif command == "refresh":
+        download_versions()
     else:
         print("Invalid command")
 
