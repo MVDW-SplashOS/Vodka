@@ -1,0 +1,1297 @@
+{
+    "categories": [
+        {
+            "id": "ge-proton",
+            "name": "GE-Proton"
+        },
+        {
+            "id": "lutris",
+            "name": "Lutris"
+        },
+        {
+            "id": "soda",
+            "name": "Soda"
+        },
+        {
+            "id": "wine-tkg",
+            "name": "Wine-TKG"
+        }
+    ],
+    "versions": {
+        "soda": [
+            {
+                "name": "soda-9.0-1-x86_64",
+                "title": "Soda 9.0-1",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-9.0-1/soda-9.0-1-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-8.0-2-x86_64",
+                "title": "Soda 8.0-2",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-8.0-2/soda-8.0-2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-9-x86_64",
+                "title": "Soda 7.0-9",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-9/soda-7.0-9-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-8-x86_64",
+                "title": "Soda 7.0-8",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-8/soda-7.0-8-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-7-x86_64",
+                "title": "Soda 7.0-7",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-7/soda-7.0-7-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-6-x86_64",
+                "title": "Soda 7.0-6",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-6/soda-7.0-6-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-5-x86_64",
+                "title": "Soda 7.0-5",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-5/soda-7.0-5-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-4-x86_64",
+                "title": "Soda 7.0-4",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-4/soda-7.0-4-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-3-x86_64",
+                "title": "Soda 7.0-3",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-3/soda-7.0-3-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-2-x86_64",
+                "title": "Soda 7.0-2",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-2/soda-7.0-2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-1-x86_64",
+                "title": "Soda 7.0-1",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0-1/soda-7.0-1-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "soda-7.0-x86_64",
+                "title": "Soda 7.0",
+                "uri": "https://github.com/bottlesdevs/wine/releases/download/soda-7.0/soda-7.0-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            }
+        ],
+        "lutris": [
+            {
+                "name": "lutris-7.2-2-x86_64",
+                "title": "Lutris 7.2-2",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-wine-7.2-2/wine-lutris-7.2-2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-7.2-x86_64",
+                "title": "Lutris 7.2",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-wine-7.2/wine-lutris-7.2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-7.1-x86_64",
+                "title": "Lutris 7.1",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-7.1/wine-lutris-7.1-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-6-x86_64",
+                "title": "Lutris 6.21-6",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21-6/wine-lutris-6.21-6-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-5-x86_64",
+                "title": "Lutris 6.21-5",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21-5/wine-lutris-6.21-5-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-4-x86_64",
+                "title": "Lutris 6.21-4",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21-4/wine-lutris-6.21-4-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-3-x86_64",
+                "title": "Lutris 6.21-3",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21-3/wine-lutris-6.21-3-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-2-x86_64",
+                "title": "Lutris 6.21-2",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21-2/wine-lutris-6.21-2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.21-x86_64",
+                "title": "Lutris 6.21",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.21/wine-lutris-6.21-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.14-4-x86_64",
+                "title": "Lutris 6.14-4",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.14-4/wine-lutris-6.14-4-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.14-3-x86_64",
+                "title": "Lutris 6.14-3",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.14-3/wine-lutris-6.14-3-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.14-2-x86_64",
+                "title": "Lutris 6.14-2",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.14-2/wine-lutris-6.14-2-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "lutris-6.14-x86_64",
+                "title": "Lutris 6.14",
+                "uri": "https://github.com/lutris/wine/releases/download/lutris-6.14/wine-lutris-6.14-x86_64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            }
+        ],
+        "ge-proton": [
+            {
+                "name": "GE-Proton9-20",
+                "title": "GE-Proton 9-20",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-20/GE-Proton9-20.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-18",
+                "title": "GE-Proton 9-18",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-18/GE-Proton9-18.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-16",
+                "title": "GE-Proton 9-16",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-16/GE-Proton9-16.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-15",
+                "title": "GE-Proton 9-15",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-15/GE-Proton9-15.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-13",
+                "title": "GE-Proton 9-13",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-13/GE-Proton9-13.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-11",
+                "title": "GE-Proton 9-11",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-11/GE-Proton9-11.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-10",
+                "title": "GE-Proton 9-10",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-10/GE-Proton9-10.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-9",
+                "title": "GE-Proton 9-9",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-9/GE-Proton9-9.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-7",
+                "title": "GE-Proton 9-7",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-7/GE-Proton9-7.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-5",
+                "title": "GE-Proton 9-5",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-5/GE-Proton9-5.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-4",
+                "title": "GE-Proton 9-4",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-4/GE-Proton9-4.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-2",
+                "title": "GE-Proton 9-2",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-2/GE-Proton9-2.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton9-1",
+                "title": "GE-Proton 9-1",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton9-1/GE-Proton9-1.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-32",
+                "title": "GE-Proton 8-32",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-32/GE-Proton8-32.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-30",
+                "title": "GE-Proton 8-30",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-30/GE-Proton8-30.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-27",
+                "title": "GE-Proton 8-27",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-27/GE-Proton8-27.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-25",
+                "title": "GE-Proton 8-25",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-25/GE-Proton8-25.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-23",
+                "title": "GE-Proton 8-23",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-23/GE-Proton8-23.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-22",
+                "title": "GE-Proton 8-22",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-22/GE-Proton8-22.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-21",
+                "title": "GE-Proton 8-21",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-21/GE-Proton8-21.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-20",
+                "title": "GE-Proton 8-20",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-20/GE-Proton8-20.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-16",
+                "title": "GE-Proton 8-16",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-16/GE-Proton8-16.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-15",
+                "title": "GE-Proton 8-15",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-15/GE-Proton8-15.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-14",
+                "title": "GE-Proton 8-14",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-14/GE-Proton8-14.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-13",
+                "title": "GE-Proton 8-13",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-13/GE-Proton8-13.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-11",
+                "title": "GE-Proton 8-11",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-11/GE-Proton8-11.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-9",
+                "title": "GE-Proton 8-9",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-9/GE-Proton8-9.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-7",
+                "title": "GE-Proton 8-7",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-7/GE-Proton8-7.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-6",
+                "title": "GE-Proton 8-6",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-6/GE-Proton8-6.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-4",
+                "title": "GE-Proton 8-4",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-4/GE-Proton8-4.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-3",
+                "title": "GE-Proton 8-3",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-3/GE-Proton8-3.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton8-2",
+                "title": "GE-Proton 8-2",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton8-2/GE-Proton8-2.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-55",
+                "title": "GE-Proton 7-55",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-55/GE-Proton7-55.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-54",
+                "title": "GE-Proton 7-54",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-54/GE-Proton7-54.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-53",
+                "title": "GE-Proton 7-53",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-53/GE-Proton7-53.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-51",
+                "title": "GE-Proton 7-51",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-51/GE-Proton7-51.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-50",
+                "title": "GE-Proton 7-50",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-50/GE-Proton7-50.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-49",
+                "title": "GE-Proton 7-49",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-49/GE-Proton7-49.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-48",
+                "title": "GE-Proton 7-48",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-48/GE-Proton7-48.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-47",
+                "title": "GE-Proton 7-47",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-47/GE-Proton7-47.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-43",
+                "title": "GE-Proton 7-43",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-43/GE-Proton7-43.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-42",
+                "title": "GE-Proton 7-42",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-42/GE-Proton7-42.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-41",
+                "title": "GE-Proton 7-41",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-41/GE-Proton7-41.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-38",
+                "title": "GE-Proton 7-38",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-38/GE-Proton7-38.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-37",
+                "title": "GE-Proton 7-37",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-37/GE-Proton7-37.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-35",
+                "title": "GE-Proton 7-35",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-35/GE-Proton7-35.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-33",
+                "title": "GE-Proton 7-33",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-33/GE-Proton7-33.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-31",
+                "title": "GE-Proton 7-31",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-31/GE-Proton7-31.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-30",
+                "title": "GE-Proton 7-30",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-30/GE-Proton7-30.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-29",
+                "title": "GE-Proton 7-29",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-29/GE-Proton7-29.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-28",
+                "title": "GE-Proton 7-28",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-28/GE-Proton7-28.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-27",
+                "title": "GE-Proton 7-27",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-27/GE-Proton7-27.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            },
+            {
+                "name": "GE-Proton7-26",
+                "title": "GE-Proton 7-26",
+                "uri": "https://github.com/GloriousEggroll/proton-ge-custom/releases/download/GE-Proton7-26/GE-Proton7-26.tar.gz",
+                "files": {
+                    "wine": "files/bin/wine",
+                    "wine64": "files/bin/wine64",
+                    "wineserver": "files/bin/wineserver"
+                }
+            }
+        ],
+        "wine-tkg": [
+            {
+                "name": "wine-10.0-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 10.0",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/10.0/wine-10.0-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.22-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.22",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.22/wine-9.22-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.21-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.21",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.21/wine-9.21-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.20-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.20",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.20/wine-9.20-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.19-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.19",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.19/wine-9.19-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.18-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.18",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.18/wine-9.18-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.17-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.17",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.17/wine-9.17-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.12-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.12",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.12/wine-9.12-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.11-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.11",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.11/wine-9.11-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.10-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.10",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.10/wine-9.10-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.9-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.9",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.9/wine-9.9-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.8-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.8",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.8/wine-9.8-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.7-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.7",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.7/wine-9.7-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.6-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.6",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.6/wine-9.6-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.5-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.5",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.5/wine-9.5-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.4-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.4",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.4/wine-9.4-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.3-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.3",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.3/wine-9.3-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.2-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.2",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.2/wine-9.2-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.1-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.1",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.1/wine-9.1-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-9.0-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 9.0",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/9.0/wine-9.0-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.21-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.21",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.21/wine-8.21-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.20-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.20",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.20/wine-8.20-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.19-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.19",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.19/wine-8.19-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.18-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.18",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.18/wine-8.18-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.17-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.17",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.17/wine-8.17-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.16-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.16",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.16/wine-8.16-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.15-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.15",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.15/wine-8.15-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.14-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.14",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.14/wine-8.14-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.13-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.13",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.13/wine-8.13-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.12-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.12",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.12/wine-8.12-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.11-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.11",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.11/wine-8.11-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.10-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.10",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.10/wine-8.10-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.9-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.9",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.9/wine-8.9-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.8-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.8",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.8/wine-8.8-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.7-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.7",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.7/wine-8.7-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.6-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.6",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.6/wine-8.6-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.5-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.5",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.5/wine-8.5-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.4-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.4",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.4/wine-8.4-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.3-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.3",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.3/wine-8.3-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.2-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.2",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.2/wine-8.2-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.1-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.1",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.1/wine-8.1-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-8.0-staging-tkg-amd64",
+                "title": "Wine-Staging-TkG 8.0",
+                "uri": "https://github.com/Kron4ek/Wine-Builds/releases/download/8.0/wine-8.0-staging-tkg-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine64",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            }
+        ]
+    }
+}
