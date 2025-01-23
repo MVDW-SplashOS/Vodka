@@ -30,6 +30,10 @@ def print_usage():
     print("  default <version>      - Set default version")
     print("  list [options]         - List available versions")
     print("  refresh               - Refresh versions list")
+    print("\nComponent Commands:")
+    print("  component install <name> - Install a specific component")
+    print("  component list        - List available components")
+    print("  component refresh     - Refresh components list")
     print("\nList options:")
     print("  --filter <text>       - Filter versions by name")
     print("  --page <number>       - Show specific page")
@@ -178,6 +182,62 @@ def main():
             print("Downloading Wine versions list...")
             if vodka.download_versions():
                 print("Successfully updated versions list")
+
+        elif command == "component":
+            if len(sys.argv) < 3:
+                print_usage()
+                return 1
+
+            component_command = sys.argv[2].lower()
+
+            if component_command == "install" and len(sys.argv) >= 4:
+                component_name = sys.argv[3]
+                prefix_path = None
+
+                # Check for --prefix option
+                if len(sys.argv) >= 6 and sys.argv[4] == "--prefix":
+                    prefix_path = sys.argv[5]
+                else:
+                    print("Error: --prefix option is required")
+                    print(
+                        "Usage: vodka component install <component> --prefix <prefix_path>")
+                    return 1
+
+                try:
+                    print(f"Installing {
+                          component_name} into prefix: {prefix_path}")
+                    if vodka.install_component(component_name, prefix_path):
+                        print(f"Successfully installed component {
+                              component_name}")
+                        print(
+                            "Note: You may need to restart your Wine prefix for changes to take effect")
+                    else:
+                        print(f"Component {
+                              component_name} installation failed")
+                except Exception as e:
+                    return handle_error(e)
+
+            elif component_command == "list":
+                if not vodka.components_file.exists():
+                    print(
+                        "No components found. Use 'vodka component refresh' to update the component list.")
+                    return 0
+
+                components = vodka.get_components()
+                print("\nAvailable Components:")
+                print("-" * 50)
+                for component in components:
+                    installed = "✓" if component['installed'] else " "
+                    print(f"[{installed}] {component['name']}")
+
+            elif component_command == "refresh":
+                print("Downloading components list...")
+                if vodka.download_components():
+                    print("Successfully updated components list")
+
+            else:
+                print_usage()
+                return 1
 
         else:
             print_usage()

@@ -9,12 +9,15 @@ class VodkaManager:
     def __init__(self, base_dir=None):
         self.base_dir = Path(base_dir) if base_dir else Path.home() / ".vodka"
         self.versions_file = self.base_dir / "versions.json"
+        self.components_file = self.base_dir / "components.json"
         self.default_link = self.base_dir / "default"
+        self.components_dir = self.base_dir / "components"
         self.base_dir.mkdir(exist_ok=True)
+        self.components_dir.mkdir(exist_ok=True)
 
     def download_versions(self):
         """Download the versions list from the repository."""
-        versions_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/refactor/data/wine.json"
+        versions_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/main/data/wine.json"
         try:
             urllib.request.urlretrieve(versions_url, self.versions_file)
             return True
@@ -32,6 +35,90 @@ class VodkaManager:
             for category_versions in data['versions'].values():
                 versions.extend(category_versions)
             return versions
+    # Add these new methods
+
+    def download_components(self):
+        """Download the components list from the repository."""
+        components_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/main/data/components.json"
+        try:
+            urllib.request.urlretrieve(components_url, self.components_file)
+            return True
+        except Exception as e:
+            raise Exception(f"Error downloading components: {e}")
+
+    def load_components(self):
+        """Load and return the components list."""
+        if not self.components_file.exists():
+            self.download_components()
+        with open(self.components_file) as f:
+            data = json.load(f)
+            components = []
+            for category_components in data['versions'].values():
+                components.extend(category_components)
+            return components
+
+    def find_component(self, component_name):
+        """Find a component in any category by name"""
+        try:
+            with open(self.components_file) as f:
+                data = json.load(f)
+
+            for category_components in data['versions'].values():
+                for component in category_components:
+                    if component['name'].lower() == component_name.lower():
+                        return component
+            return None
+        except Exception as e:
+            raise Exception(f"Error finding component: {e}")
+
+    def is_component_installed(self, component_name):
+        """Check if a specific component is installed."""
+        return (self.components_dir / component_name).exists()
+
+    def install_component(self, component_name, prefix_path=None):
+        """Install a specific component into a Wine prefix"""
+        component = self.find_component(component_name)
+        if not component:
+            raise Exception(f"Component {component_name} not found")
+
+        install_dir = self.components_dir / component["name"]
+        if not install_dir.exists():
+            # Download and extract if not already done
+            self._download_and_extract_component(component)
+
+        if prefix_path:
+            # Install into specified prefix
+            from .component_installer import ComponentInstaller
+            installer = ComponentInstaller(prefix_path)
+            return installer.install_component(install_dir, component["installation"])
+
+        return True
+
+    def _download_and_extract_component(self, component):
+        """Helper method to download and extract component"""
+        tar_path = self.components_dir / f"{component['name']}.tar.gz"
+        try:
+            print(f"Downloading component {component['name']}...")
+            urllib.request.urlretrieve(component["uri"], tar_path)
+
+            print(f"Extracting component {component['name']}...")
+            with tarfile.open(tar_path) as tar:
+                tar.extractall(self.components_dir)
+            tar_path.unlink()
+            return True
+
+        except Exception as e:
+            if tar_path.exists():
+                tar_path.unlink()
+            raise Exception(f"Component installation failed: {e}")
+
+    def get_components(self):
+        """Get a list of all components with their status."""
+        components = self.load_components()
+        return [{
+            "name": component["name"],
+            "installed": self.is_component_installed(component["name"])
+        } for component in components]
 
     def is_installed(self, version_name):
         """Check if a specific version is installed."""
