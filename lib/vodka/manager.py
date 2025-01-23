@@ -4,6 +4,7 @@ import tarfile
 import urllib.request
 from pathlib import Path
 
+
 class VodkaManager:
     def __init__(self, base_dir=None):
         self.base_dir = Path(base_dir) if base_dir else Path.home() / ".vodka"
@@ -13,7 +14,7 @@ class VodkaManager:
 
     def download_versions(self):
         """Download the versions list from the repository."""
-        versions_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/main/versions.json"
+        versions_url = "https://raw.githubusercontent.com/MVDW-Java/vodka/refactor/data/wine.json"
         try:
             urllib.request.urlretrieve(versions_url, self.versions_file)
             return True
@@ -25,7 +26,12 @@ class VodkaManager:
         if not self.versions_file.exists():
             self.download_versions()
         with open(self.versions_file) as f:
-            return json.load(f)
+            data = json.load(f)
+            # Flatten versions from all categories into a single list
+            versions = []
+            for category_versions in data['versions'].values():
+                versions.extend(category_versions)
+            return versions
 
     def is_installed(self, version_name):
         """Check if a specific version is installed."""
@@ -52,8 +58,7 @@ class VodkaManager:
 
     def install_version(self, version_name):
         """Install a specific version."""
-        versions = self.load_versions()
-        version = next((v for v in versions if v["name"].lower() == version_name.lower()), None)
+        version = self.find_version(version_name)
         if not version:
             raise Exception(f"Version {version_name} not found")
 
@@ -63,18 +68,30 @@ class VodkaManager:
 
         # Download and extract
         tar_path = self.base_dir / f"{version['name']}.tar.gz"
-        urllib.request.urlretrieve(version["uri"], tar_path)
+        try:
+            print(f"Downloading {version['name']}...")
+            urllib.request.urlretrieve(version["uri"], tar_path)
 
-        with tarfile.open(tar_path) as tar:
-            tar.extractall(self.base_dir)
-        tar_path.unlink()
+            print(f"Extracting {version['name']}...")
+            with tarfile.open(tar_path) as tar:
+                tar.extractall(self.base_dir)
+            tar_path.unlink()
 
-        # Set as default if it's the only version
-        installed_versions = [d for d in self.base_dir.iterdir() if d.is_dir()]
-        if len(installed_versions) == 1:
-            self.set_default(version["name"])
+            # Set as default if it's the only version
+            installed_versions = [
+                d for d in self.base_dir.iterdir() if d.is_dir()]
+            if len(installed_versions) == 1:
+                self.set_default(version["name"])
 
-        return True
+            return True
+        except Exception as e:
+            # Clean up on failure
+            if tar_path.exists():
+                tar_path.unlink()
+            if install_dir.exists():
+                import shutil
+                shutil.rmtree(install_dir)
+            raise Exception(f"Installation failed: {e}")
 
     def get_versions(self):
         """Get a list of all versions with their status."""
@@ -84,3 +101,19 @@ class VodkaManager:
             "installed": self.is_installed(version["name"]),
             "is_default": self.is_default(version["name"])
         } for version in versions]
+
+    def find_version(self, version_name):
+        """Find a version in any category by name"""
+        try:
+            with open(self.versions_file) as f:
+                data = json.load(f)
+
+            # Search through all categories
+            for category_versions in data['versions'].values():
+                for version in category_versions:
+                    # Case insensitive comparison of the full version string
+                    if version['name'].lower() == version_name.lower():
+                        return version
+            return None
+        except Exception as e:
+            raise Exception(f"Error finding version: {e}")

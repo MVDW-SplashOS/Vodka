@@ -1,3 +1,10 @@
 from .manager import VodkaManager
+from .api.wine import *
 
-__all__ = ['VodkaManager']
+__all__ = [
+    'VodkaManager',
+
+    # Wine management
+    'WineInstallVersion'
+
+]
