@@ -20,3 +20,6 @@ class WineManager:
 
     def refresh_versions(self):
         return self.vodka.download_versions()
+
+    def execute(self, version, command):
+        return self.vodka.execute(version, command)

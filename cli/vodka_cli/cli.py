@@ -30,6 +30,7 @@ def print_usage():
     print("  default <version>      - Set default version")
     print("  list [options]         - List available versions")
     print("  refresh               - Refresh versions list")
+    print("  execute [version] <command> - Execute a command (uses default if version not specified)")
     print("\nComponent Commands:")
     print("  component install <name> - Install a specific component")
     print("  component list        - List available components")
@@ -123,7 +124,7 @@ def print_version_list(versions_data, filter_str=None, page=1, page_size=10):
 
 def main():
     try:
-        vodka = VodkaManager()
+        vodka = VodkaManager("/home/mvdw/_test_vodka")
 
         if len(sys.argv) < 2:
             print_usage()
@@ -238,6 +239,35 @@ def main():
             else:
                 print_usage()
                 return 1
+
+        elif command == "execute":
+            if len(sys.argv) < 3:
+                print("Error: Command required")
+                print("Usage: vodka execute [version] <command>")
+                return 1
+
+            # Check if first argument is a version or part of the command
+            if len(sys.argv) >= 4 and vodka.is_installed(sys.argv[2]):
+                version_name = sys.argv[2]
+                command = sys.argv[3:]
+            else:
+                # Use default version if exists, otherwise error
+                if not vodka.default_link.exists():
+                    print("Error: No default Wine version set")
+                    print("Use 'vodka default <version>' to set a default version")
+                    return 1
+                version_name = vodka.default_link.name
+                command = sys.argv[2:]
+
+            try:
+                stdout, stderr = vodka.execute(version_name, command)
+                if stdout:
+                    print(stdout)
+                if stderr:
+                    print(stderr, file=sys.stderr)
+                return 0
+            except Exception as e:
+                return handle_error(e)
 
         else:
             print_usage()

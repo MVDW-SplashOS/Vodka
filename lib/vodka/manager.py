@@ -3,7 +3,7 @@ import os
 import tarfile
 import urllib.request
 from pathlib import Path
-
+import subprocess
 
 class VodkaManager:
     def __init__(self, base_dir=None):
@@ -204,3 +204,16 @@ class VodkaManager:
             return None
         except Exception as e:
             raise Exception(f"Error finding version: {e}")
+
+    def execute(self, version, command):
+        """Execute a command in a specific version"""
+        try:
+            version_dir = self.base_dir / version
+            if not version_dir.exists():
+                raise Exception(f"Version {version} not found")
+
+            # Execute the command in the version's directory
+            result = subprocess.run(command, cwd=version_dir, capture_output=True, text=True)
+            return result.stdout, result.stderr
+        except Exception as e:
+            raise Exception(f"Error executing command: {e}")
