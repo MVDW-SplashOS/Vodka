@@ -205,15 +205,38 @@ class VodkaManager:
         except Exception as e:
             raise Exception(f"Error finding version: {e}")
 
-    def execute(self, version, command):
+    def execute(self, command):
         """Execute a command in a specific version"""
         try:
-            version_dir = self.base_dir / version
-            if not version_dir.exists():
-                raise Exception(f"Version {version} not found")
+            # version is default version
+            if not self.default_link.exists():
+                raise Exception("No default version set")
 
-            # Execute the command in the version's directory
-            result = subprocess.run(command, cwd=version_dir, capture_output=True, text=True)
-            return result.stdout, result.stderr
+            default_version_dir = self.default_link.resolve()
+
+            with open(self.versions_file) as f:
+                data = json.load(f)
+            wine_dir = None
+            for category_versions in data['versions'].values():
+                for v in category_versions:
+                    candidate_dir = self.base_dir / v['name']
+                    if candidate_dir.resolve() == default_version_dir:
+                        wine_file = v.get('files', {}).get('wine')
+                        if wine_file is None:
+                            raise Exception(f"No 'wine' file entry found for version {v['name']}")
+                        wine_dir = candidate_dir / wine_file
+                        break
+                if wine_dir is not None:
+                    break
+            if wine_dir is None:
+                raise Exception("Default version does not match any known version")
+
+            # Ensure wine_dir is a string and build the command as a list for subprocess
+            if isinstance(command, str):
+                command_list = [str(wine_dir)] + command.split()
+            else:
+                command_list = [str(wine_dir)] + list(command)
+            subprocess.run(command_list, text=True)
+
         except Exception as e:
             raise Exception(f"Error executing command: {e}")
