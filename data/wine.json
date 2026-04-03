@@ -22,66 +22,221 @@
         }
     ],
     "versions": {
-        "spritz":[
+        "spritz": [
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-7",
-                "title": "Spritz-CachyOS 10.0-7",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-7/spritz-wine-cachyos-wow64-10.0-7-x86_64.tar.xz",
+                "name": "spritz-wine-tkg-staging-wow64-10.15-9",
+                "title": "Spritz-Wine-TkG 10.15-9",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-9/spritz-wine-tkg-staging-wow64-10.15-9-x86_64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
-                    "wine64": "bin/wine64",
+                    "wine64": "bin/wine",
                     "wineserver": "bin/wineserver",
                     "wineboot": "bin/wineboot"
                 }
             },
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-6",
-                "title": "Spritz-CachyOS 10.0-6",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-6/spritz-wine-cachyos-wow64-10.0-6-x86_64.tar.xz",
+                "name": "spritz-wine-tkg-staging-wow64-10.15-8",
+                "title": "Spritz-Wine-TkG 10.15-8",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-8/spritz-wine-tkg-staging-wow64-10.15-8-x86_64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
-                    "wine64": "bin/wine64",
+                    "wine64": "bin/wine",
                     "wineserver": "bin/wineserver",
                     "wineboot": "bin/wineboot"
                 }
             },
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-5",
-                "title": "Spritz-CachyOS 10.0-5",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-5/spritz-wine-cachyos-wow64-10.0-5-x86_64.tar.xz",
+                "name": "spritz-wine-tkg-staging-wow64-10.15-7",
+                "title": "Spritz-Wine-TkG 10.15-7",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-7/spritz-wine-tkg-staging-wow64-10.15-7-x86_64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
-                    "wine64": "bin/wine64",
+                    "wine64": "bin/wine",
                     "wineserver": "bin/wineserver",
                     "wineboot": "bin/wineboot"
                 }
             },
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-4",
-                "title": "Spritz-CachyOS 10.0-4",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-4/spritz-wine-cachyos-wow64-10.0-4-x86_64.tar.xz",
+                "name": "spritz-wine-tkg-staging-wow64-10.15-6",
+                "title": "Spritz-Wine-TkG 10.15-6",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-6/spritz-wine-tkg-staging-wow64-10.15-6-x86_64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
-                    "wine64": "bin/wine64",
+                    "wine64": "bin/wine",
                     "wineserver": "bin/wineserver",
                     "wineboot": "bin/wineboot"
                 }
             },
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-3",
-                "title": "Spritz-CachyOS 10.0-3",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-3/spritz-wine-cachyos-wow64-10.0-3-x86_64.tar.xz",
+                "name": "spritz-wine-tkg-staging-wow64-10.15-5",
+                "title": "Spritz-Wine-TkG 10.15-5",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-5/spritz-wine-tkg-staging-wow64-10.15-5-x86_64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
-                    "wine64": "bin/wine64",
+                    "wine64": "bin/wine",
                     "wineserver": "bin/wineserver",
                     "wineboot": "bin/wineboot"
                 }
             },
             {
-                "name": "spritz-wine-cachyos-wow64-10.0-1",
-                "title": "Spritz-CachyOS 10.0-1",
-                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-cachyos-aagl-v10.0-1/spritz-wine-cachyos-wow64-10.0-1-x86_64.tar.xz",
+                "name": "wine-spritz-10.15-3-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.15-3",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-3/wine-spritz-10.15-3-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.15-2-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.15-2",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-2/wine-spritz-10.15-2-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.15-1-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.15-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.15-1/wine-spritz-10.15-1-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.14-2-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.14-2",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.14-2/wine-spritz-10.14-2-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.14-1-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.14-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.14-1/wine-spritz-10.14-1-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                },
+                "features": {
+                    "recommended": false
+                }
+            },
+            {
+                "name": "wine-spritz-10.12-4-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.12-4",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.12-4/wine-spritz-10.12-4-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.12-3-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.12-3",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.12-3/wine-spritz-10.12-3-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.12-2-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.12-2",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.12-2/wine-spritz-10.12-2-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.12-1-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.12-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.12-1/wine-spritz-10.12-1-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.10-2-staging-tkg-aagl-amd64",
+                "title": "Spritz-Wine-TkG 10.10-2",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.10-2/wine-spritz-10.10-2-staging-tkg-aagl-amd64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                }
+            },
+            {
+                "name": "wine-spritz-10.10-1-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.10-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.10-1/wine-spritz-10.10-1-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                },
+                "features": {
+                    "recommended": false
+                }
+            },
+            {
+                "name": "wine-spritz-10.9-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.9-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.9-1/wine-spritz-10.9-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                },
+                "features": {
+                    "recommended": false
+                }
+            },
+            {
+                "name": "wine-spritz-10.6-staging-tkg-aagl-amd64-wow64",
+                "title": "Spritz-Wine-TkG 10.6-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.6-1/wine-spritz-10.6-staging-tkg-aagl-amd64-wow64.tar.xz",
+                "files": {
+                    "wine": "bin/wine",
+                    "wine64": "bin/wine",
+                    "wineserver": "bin/wineserver",
+                    "wineboot": "bin/wineboot"
+                },
+                "features": {
+                    "recommended": false
+                }
+            },
+            {
+                "name": "wine-spritz-10.0-1-staging-tkg-aagl-amd64",
+                "title": "Spritz-Wine-TkG 10.0-1",
+                "uri": "https://github.com/NelloKudo/Wine-Builds/releases/download/wine-tkg-aagl-v10.0-1/wine-spritz-10.0-1-staging-tkg-aagl-amd64.tar.xz",
                 "files": {
                     "wine": "bin/wine",
                     "wine64": "bin/wine64",
@@ -89,7 +244,7 @@
                     "wineboot": "bin/wineboot"
                 }
             }
-        ]
+        ],
         "soda": [
             {
                 "name": "soda-9.0-1-x86_64",
